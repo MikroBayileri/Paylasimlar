@@ -1,0 +1,3 @@
+update CARI_HESAPLAR
+
+set cari_vdaire_no =replace(cari_vdaire_no,' ','')
