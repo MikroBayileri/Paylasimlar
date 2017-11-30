@@ -1,0 +1,1 @@
+Fora yazılım uygulamaları
