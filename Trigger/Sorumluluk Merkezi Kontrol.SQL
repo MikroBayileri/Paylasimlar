@@ -1,3 +1,5 @@
+--Sorumluluk merkezinin boş kaydetmesini engelleyen trigger.
+
 set ANSI_NULLS ON
 set QUOTED_IDENTIFIER ON
 go
