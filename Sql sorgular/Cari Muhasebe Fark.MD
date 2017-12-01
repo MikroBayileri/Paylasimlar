@@ -1,1 +1,0 @@
-Cari Bakiyeleri ile Muhasebe Bakiyelerinin Karşılaştırılması
