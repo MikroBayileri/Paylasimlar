@@ -1,3 +1,5 @@
+--Cari Bakiyeleri ile Muhasebe Bakiyelerinin Karşılaştırılması
+
 SELECT  top 100 percent CARI_HESAPLAR.cari_kod AS CARİ_KOD, CARI_HESAPLAR.cari_unvan1 AS CARİ_ÜNVAN, dbo.fn_CariHesapAnaDovizBakiye('', 0, CARI_HESAPLAR.cari_kod, '', '', 
 0, NULL, NULL, 0) AS CARİ_BAKİYE1, 
 dbo.fn_CariHesapAnaDovizBakiye('', 1, CARI_HESAPLAR.cari_kod, '', '', 
