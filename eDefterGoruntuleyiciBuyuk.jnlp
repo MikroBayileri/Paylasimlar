@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<jnlp spec="0.2 1.0" codebase="http://www.edefter.gov.tr/eDefterGoruntuleyici/" href="eDefterGoruntuleyiciBuyuk.jnlp">
+   
+   <information> 
+      <title>e-Defter Görüntüleyici</title> 
+      <vendor>GELİR İDARESİ BAŞKANLIĞI</vendor>
+      <homepage href="http://www.edefter.gov.tr/eDefterGoruntuleyici/"/>
+      <description>e-Defter Görüntüleyici</description>
+   </information> 
+   
+   <security>
+     <all-permissions/>
+   </security>
+   
+   <resources>
+      <j2se version="1.7+" initial-heap-size="128m" max-heap-size="2048m"/>
+      <jar href="eDefterGoruntuleyici.jar"/>
+      <jar href="lib/CSSigner.jar"/>
+	  <jar href="lib/poi-3.12-20150511.jar"/> 
+	  <jar href="lib/h2-1.3.176.jar"/>
+      <jar href="lib/saxon9he.jar"/>
+      <jar href="lib/vtd-xml.jar"/>
+      <jar href="lib/xml2Table.jar"/>
+   </resources>
+   
+   <application-desc main-class="gui.MainScreen">e-Defter Görüntüleyici</application-desc>
+   
+</jnlp> 
+
